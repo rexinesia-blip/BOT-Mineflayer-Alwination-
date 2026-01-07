@@ -1,0 +1,44 @@
+{
+  "name": "minecraft-modular-bot",
+  "version": "4.0.0",
+  "description": "Minecraft Modular Bot System - AI + IMG Builder + SCHEM Builder + Kill Aura",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "mineflayer",
+    "chatgpt",
+    "builder",
+    "schematic",
+    "killaura"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.20.1",
+    "axios": "^1.7.9",
+    "vec3": "^0.1.8",
+    "minecraft-data": "^3.69.0",
+    "jimp": "^0.22.12",
+    "nearest-color": "^0.4.4",
+    "mineflayer-pathfinder": "^2.4.4",
+    "mineflayer-schem": "^1.2.0",
+    "prismarine-schematic": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/minecraft-bot"
+  }
+}
